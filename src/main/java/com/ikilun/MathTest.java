@@ -2,6 +2,8 @@ package com.ikilun;
 
 import org.junit.Test;
 
+import junit.framework.Assert;
+
 public class MathTest{
 	@Test
 	public void testMath1(){
@@ -12,5 +14,6 @@ public class MathTest{
 		System.out.println(Math.floor(-12.6));//-13
 		
 		float a = 3.4F;
+		Assert.assertEquals(1, 1);
 	}
 }
